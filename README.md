@@ -5,3 +5,5 @@ DZmix.exe is for use on Windows and requires a free compiler available here: htt
 MATLAB .m and .fig files for running DZmix graphical user interface (GUI) directly in MATLAB does not require the MATLAB MCR compiler. 
 
 Sundell_Saylor_2017_Inverse_unmixing_model_v_1_1_02.m is a simplified code also for use directly in MATLAB, but does not have a graphical user interface (GUI). Instructions are annotated in the code.
+
+macOS version will be added soon. Source codes and application are currently available at https://www.kurtsundell.com/downloads/ 
