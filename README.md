@@ -1,12 +1,12 @@
 # DZmix (Sundell and Saylor, 2017)
 
-# Run in MATLAB
+### Run in MATLAB
 
 To run DZmix in MATLAB open the DZmix.m file and run it.
 
 Sundell_Saylor_2017_Inverse_unmixing_model_v_1_1_02.m is a simplified code also for use directly in MATLAB, but does not have a graphical user interface (GUI). Instructions are annotated in the code.
 
-# Run without MATLAB
+### Run without MATLAB
 
 DZmix can be run in MATLAB or as a standalone .exe file (Windows) or .app file (macOS) that can be used without having a copy MATLAB. The file can be run from your computer's Desktop, or wherever you choose to keep it.
 
