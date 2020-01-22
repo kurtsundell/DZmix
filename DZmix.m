@@ -2858,7 +2858,8 @@ function Export_Data_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 Results_export=handles.Results_export;
 [file,path] = uiputfile('*.xls','Save file');
-xlswrite([path file], Results_export);
+%xlswrite([path file], Results_export);
+writetable(table(Results_export),[path file])
 
 % --- Executes on button press in Export_PDP_CDF.
 function Export_PDP_CDF_Callback(hObject, eventdata, handles)
@@ -2880,13 +2881,16 @@ PDP_step = str2num(get(handles.PDP_step,'String'));
 x_pdp=transpose(PDP_min:PDP_step:PDP_max);
 Results_R2=horzcat(x_pdp,pdp_R2_export);
 [file,path] = uiputfile('model_PDPs_R2.xls','Save file');
-xlswrite([path file], Results_R2);
+%xlswrite([path file], Results_R2);
+writetable(table(Results_R2),[path file])
 Results_V=horzcat(x_all,cdf_V_export);
 [file,path] = uiputfile('model_CDFs_Kuiper.xls','Save file');
-xlswrite([path file], Results_V);
+%xlswrite([path file], Results_V);
+writetable(table(Results_V),[path file])
 Results_D=horzcat(x_all,cdf_D_export);
 [file,path] = uiputfile('model_CDFs_KS.xls','Save file');
-xlswrite([path file], Results_D);
+%xlswrite([path file], Results_D);
+writetable(table(Results_D),[path file])
 
 %%%%%%%%%%%%%%%%---------Example Data Set Button-----------%%%%%%%%%%%%%%%%
 % --- Executes on button press in Example.
