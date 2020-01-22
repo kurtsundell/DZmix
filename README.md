@@ -1,7 +1,5 @@
 # DZmix (Sundell and Saylor, 2017)
 
-New code coming soon! For now please find separate macOS and Windows code versions and associated graphical user interfaces here: https://drive.google.com/file/d/1aGrmEu259LH_JKEKNfbfLGtNykHuBUek/view
-
 ### Run in MATLAB
 
 To run DZmix in MATLAB open the DZmix.m file and run it.
