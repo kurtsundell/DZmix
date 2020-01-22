@@ -8,7 +8,7 @@ Sundell_Saylor_2017_Inverse_unmixing_model_v_1_1_02.m is a simplified code also 
 
 ### Run without MATLAB
 
-DZmix can be run in MATLAB or as a standalone .exe file (Windows) or .app file (macOS) that can be used without having a copy MATLAB. The file can be run from your computer's Desktop, or wherever you choose to keep it.
+DZmix can be run in MATLAB or as a standalone .exe file (Windows) or .app file (macOS) that can be used without having a copy MATLAB. The file can be run from your computer's Desktop, or wherever you choose to keep it. 
 
 To run as a standalone program DZmix requires the free MATLAB Runtime Compiler 2018b version 9.5. There are separate compilers for macOS and Windows. Install the compiler first, then run the .exe (Windows) or .app (macOS).
 
@@ -21,3 +21,7 @@ http://ssd.mathworks.com/supportfiles/downloads/R2018b/deployment_files/R2018b/i
 macOS:
 
 http://ssd.mathworks.com/supportfiles/downloads/R2018b/deployment_files/R2018b/installers/maci64/MCR_R2018b_maci64_installer.dmg.zip
+
+Latest release, example data, information, and publication can be found here: 
+
+https://github.com/kurtsundell/DZmix/releases
