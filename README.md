@@ -2,6 +2,8 @@
 
 ## Sundell and Saylor (2017)
 
+## Sundell, K.E. and Saylor, J.E., 2017. Unmixing detrital geochronology age distributions. Geochemistry, Geophysics, Geosystems, 18(8), pp.2872-2886.
+
 ### Run in MATLAB
 
 To run DZmix in MATLAB open the DZmix.m file and run it.
