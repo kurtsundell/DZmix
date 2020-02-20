@@ -29,3 +29,6 @@ http://ssd.mathworks.com/supportfiles/downloads/R2018b/deployment_files/R2018b/i
 Latest release, example data, information, and publication can be found here: 
 
 https://github.com/kurtsundell/DZmix/releases
+
+Here's a short information document:
+https://static1.squarespace.com/static/590bb57a46c3c4d418bfa9b0/t/5e28b7ca907bc3069668aa21/1579726795277/DZmix-1.21_Information.pdf
