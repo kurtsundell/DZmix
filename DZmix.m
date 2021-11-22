@@ -903,8 +903,8 @@ for i=1:N
 end
 
 Results_export(10,2) = strcat(get(handles.mean_R2,'string'),{' '},get(handles.plus_R2,'string'),{' '},get(handles.R2_std,'string'));
-Results_export(13+N,2) = strcat(get(handles.mean_D,'string'),{' '},get(handles.plus_D,'string'),{' '},get(handles.D_std,'string'));
-Results_export(16+2*N,2) = strcat(get(handles.mean_V,'string'),{' '},get(handles.plus_V,'string'),{' '},get(handles.V_std,'string'));
+Results_export(13+N,2) = strcat(get(handles.mean_V,'string'),{' '},get(handles.plus_V,'string'),{' '},get(handles.V_std,'string'));
+Results_export(16+2*N,2) = strcat(get(handles.mean_D,'string'),{' '},get(handles.plus_D,'string'),{' '},get(handles.D_std,'string'));
 
 optimization=0;
 %update handles
